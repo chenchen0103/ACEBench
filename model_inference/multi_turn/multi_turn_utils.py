@@ -90,7 +90,7 @@ def execute_agent_func_call(
                 func_call_result = eval(func_call)
             execution_results.append(func_call_result)
         except Exception as e:
-            errors = "Error during execution: {str(e)}"
+            errors = f"Error during execution: {str(e)}"
             return errors, involved_classes
 
     for index in range(len(execution_results)):
