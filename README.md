@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2501.12851">📃 Paper </a>
-  <b>&nbsp;·&nbsp;</b> <a href="https://ACEBench.github.io/ACEBench/">🏆 Leaderboard (Continuously Updated)</a>
+  <b>&nbsp;·&nbsp;</b> <a href="https://chenchen0103.github.io/ACEBench/">🏆 Leaderboard (Continuously Updated)</a>
 </p>
 
 English | [中文](README_CN.md)
