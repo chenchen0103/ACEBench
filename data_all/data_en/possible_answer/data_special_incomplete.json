@@ -1,4 +1,4 @@
-{"id": "special_incomplete_0", "ground_truth": {"RealEstateManager_manageProperty": ["propertyDetails ", " rentalManagement ", " maintenanceScheduling"]}}
+{"id": "special_incomplete_0", "ground_truth": {"RealEstateManager_manageProperty": ["propertyDetails", "rentalManagement", "maintenanceScheduling"]}}
 {"id": "special_incomplete_1", "ground_truth": {"analyze_diplomatic_impact": ["time_period"]}}
 {"id": "special_incomplete_2", "ground_truth": {"OfficeInputValidator_checkIntegerValidity": ["numbers"]}}
 {"id": "special_incomplete_3", "ground_truth": {"climate_predict_sea_level_rise": ["latitude", "longitude"]}}
