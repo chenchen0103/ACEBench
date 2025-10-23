@@ -13,6 +13,22 @@ from model_inference.utils import decode_ast
 RESULT_TABLE = {}
 
 
+def extract_outermost_bracket_content(text):
+    start = -1
+    depth = 0
+    for i, char in enumerate(text):
+        if char == '[':
+            if depth == 0:
+                start = i
+            depth += 1
+        elif char == ']':
+            depth -= 1
+            if depth == 0 and start != -1:
+                return text[start:i+1]  # return the first outermost [...]
+    return None
+
+
+
 def normal_single_turn_eval(
     model_result, prompt, possible_answer, test_category, model_name, paths
 ):
@@ -32,10 +48,12 @@ def normal_single_turn_eval(
         prompt_item = prompt[i]["function"]
         possible_answer_item = possible_answer[i]["ground_truth"]
         
+        
         try:
             model_result_item_raw = model_result_item
-            model_result_item_raw = "".join(model_result_item_raw.split())
+            model_result_item_raw = extract_outermost_bracket_content(model_result_item_raw)
             model_result_item = decode_ast(model_name, model_result_item_raw)
+        
         except Exception as e:
             result.append(
                 {
