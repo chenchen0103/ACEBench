@@ -7,7 +7,7 @@
 {"id": "normal_atom_enum_6", "ground_truth": {"AirfareAnalyzer_getFlightOptions": {"fromCity": "Beijing", "toCity": "Shanghai", "date": "2023-06-15"}}}
 {"id": "normal_atom_enum_7", "ground_truth": {"SupplierNetworkExpander_findMatchingSuppliers": {"productCategory": "Electronics", "region": "Asia", "contactMethod": "Email"}}}
 {"id": "normal_atom_enum_8", "ground_truth": {"AIApplicationInsights_getTopApplications": {"applicationArea": "Healthcare", "detailLevel": "detailed", "language": "English"}}}
-{"id": "normal_atom_enum_9", "ground_truth": {"RealEstateTrendAnalyzer_identifyHotspots": {"city": "Shanghai", "trendType": "Emerging"}}}
+{"id": "normal_atom_enum_9", "ground_truth": {"RealEstateTrendAnalyzer_identifyHotspots": {"city": "Shanghai", "trendType": "Emerging","investmentSize":"moderate","marketDynamics":"dynamic"}}}
 {"id": "normal_atom_enum_10", "ground_truth": {"NutritionRecipeCollector_gatherLowCalorieRecipes": {"calorieLimit": "300", "cookingTime": "30 minutes"}}}
 {"id": "normal_atom_enum_11", "ground_truth": {"WildlifeExplorer_getCommonSpecies": {"forestRegion": "Amazon", "season": "Spring"}}}
 {"id": "normal_atom_enum_12", "ground_truth": {"VaccineInfoVerifier_checkVaccineClaims": {"claimType": "Side Effects", "sourcePreference": "CDC"}}}

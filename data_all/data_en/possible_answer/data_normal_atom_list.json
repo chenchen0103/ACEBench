@@ -32,7 +32,7 @@
 {"id": "normal_atom_list_31", "ground_truth": {"GlobalAirQuality_queryCities": {"targetCities": ["New York", "Los Angeles", "Chicago"], "format": "json", "apiKey": "YOUR_API_KEY", "refreshRate": "hourly"}}}
 {"id": "normal_atom_list_32", "ground_truth": {"LocalHistoryExplorer_exploreSites": {"siteTypes": ["medieval castles"]}}}
 {"id": "normal_atom_list_33", "ground_truth": {"DisneyFamilyPlan_suggestRides": {"childrenAges": ["4", "7", "9"]}}}
-{"id": "normal_atom_list_34", "ground_truth": {"HealthStatistics_getFluIncidence": {"incidenceDates": ["2021-05-03", "2021-05-09"], "cityDistrict": "Beijing"}}}
+{"id": "normal_atom_list_34", "ground_truth": {"HealthStatistics_getFluIncidence": {"incidenceDates": ["2021-05-03", "2021-05-04", "2021-05-05", "2021-05-06", "2021-05-07", "2021-05-08", "2021-05-09"], "cityDistrict": "Beijing"}}}
 {"id": "normal_atom_list_35", "ground_truth": {"CityPriceData_fetchAndCompare": {"cities": ["New York", "Los Angeles", "Chicago"], "comparisonType": "year-over-year"}}}
 {"id": "normal_atom_list_36", "ground_truth": {"TimeManagement_createDailySchedule": {"tasks": ["meetings", "emails", "brainstorming", "client interactions"], "priority": "high"}}}
 {"id": "normal_atom_list_37", "ground_truth": {"PropertyAnalysis_compareProperties": {"propertiesList": ["123 Main St", "456 Oak Ave", "789 Pine Circle"], "comparisonAttributes": ["price", "location"]}}}

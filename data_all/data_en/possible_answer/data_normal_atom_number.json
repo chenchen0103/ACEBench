@@ -15,7 +15,7 @@
 {"id": "normal_atom_number_14", "ground_truth": {"EducationalToyMarketTrends": {"year": 2023, "category": "STEM"}}}
 {"id": "normal_atom_number_15", "ground_truth": {"GalaxyVisualizationGenerator": {"galaxyId": 42, "visualizationType": "3D model"}}}
 {"id": "normal_atom_number_16", "ground_truth": {"FindNearbyMedicineDisposal": {"latitude": 34.0522, "longitude": -118.2437}}}
-{"id": "normal_atom_number_17", "ground_truth": {"ThermostatServiceInquiry": {"location": "Seattle"}}}
+{"id": "normal_atom_number_17", "ground_truth": {"ThermostatServiceInquiry": {"location": "Seattle","serviceType": "repair"}}}
 {"id": "normal_atom_number_18", "ground_truth": {"PostSurgeryRecoveryPlanGenerator": {"age": 65, "weight": 75, "surgeryType": "knee replacement"}}}
 {"id": "normal_atom_number_19", "ground_truth": {"VirusAndMalwareScanner": {"scanType": "full", "autoRemove": "yes"}}}
 {"id": "normal_atom_number_20", "ground_truth": {"TechStockInsightGenerator": {"industry": "Tech", "daysToAnalyze": 30, "predictionDays": 10}}}
