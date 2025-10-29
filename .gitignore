@@ -13,4 +13,6 @@ test.py
 *.env
 !.env.template
 run.sh
+test.json
+eval_main_2.py
 # leaderboard/

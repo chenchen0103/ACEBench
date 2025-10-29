@@ -482,6 +482,7 @@ def normal_checker(
 
     for i in range(len(possible_answers_list)):
         func_description = find_description(func_descriptions, func_name_list[i])
+        valid_found = False 
         for j in range(len(model_output)):
             if list(model_output[j].keys())[0] == list(possible_answers_list[i].keys())[0]:
                 result = simple_function_checker(
@@ -492,6 +493,7 @@ def normal_checker(
                     test_category
                 )
                 if result["valid"]:
+                    valid_found = True
                     break
             else:
                 result = {
@@ -499,10 +501,13 @@ def normal_checker(
                     "error": ["wrong_function"],
                     "error_type": "simple_function_checker:unclear",
                 }
-                
+        if valid_found:
+            continue 
         if not result["valid"]:
+            if len(possible_answers_list)>1:
+                result["error"] = [f"Parallel function call failed; excepted {possible_answers_list}, real: {model_output}"]
             return result             
-    
+        
     return result
 
 
